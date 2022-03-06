@@ -1,0 +1,260 @@
+.main-screen{
+    display: flex;
+}
+
+@media screen and (max-width: 480px) {
+    .main-screen{
+        display: flex;
+        flex-direction: column;
+    }
+    .main-left{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    /* .left-left{
+        width: 100%;
+    }
+    .left-right{
+        width: 50%;
+    } */
+    
+}
+@media screen and (max-width: 1200px) {
+    .main-screen{
+        display: flex;
+        flex-direction: column;
+    }
+    .main-left{
+        width: auto;
+    }
+
+}
+
+.main-left{
+    width: 80%;
+    display: flex;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.left-left{
+    width: 40%;
+}
+
+.left-right{
+    width: 60%;
+}
+
+.main-right{
+    width: 30%;
+    background: #F3F3F3 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+/* .top-left{
+    position: relative;
+} */
+
+.wifi-icon{
+    color: #1d1aa7;
+    position: absolute;
+    left: 83px;
+    top: 22px;
+}
+
+.wiser_text{
+    height: 100px;
+    display: flex;
+    position: relative;
+    margin-left: 30px;
+    align-items: center;
+    text-decoration: underline;
+    font: normal normal normal 56px/76px Palatino Linotype;
+    letter-spacing: 0px;
+    color: #FF6F61;
+}
+
+.wiser-feeds{
+    height: 100px;
+    text-align: left;
+    margin: 40px 0px 10px 30px;
+    display: flex;
+    align-items: center;
+    font: italic normal normal 52px/72px Lucida Handwriting;
+    letter-spacing: 0px;
+    color: #3451A4;
+    opacity: 1;
+}
+
+.trending{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font: normal normal normal 68px/109px MV Boli;
+    letter-spacing: 0px;
+    color: #FF6F61;
+    opacity: 1;
+    
+}
+
+.bottom-left{
+    height: 1031px;
+    background: #F3F3F3 0% 0% no-repeat padding-box;
+    border-radius: 0px 20px 0px 0px;
+    opacity: 1;
+}
+
+.ong-topics{
+    height: 104px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font: small 56px/104px Myanmar Text;
+    letter-spacing: 0px;
+    color: #5C5C5C;
+    opacity: 1;
+}
+
+.active-topic{
+    height: 80px;
+    margin: 0px 0px 20px auto;
+    padding-left: 15px;
+    display: flex;
+    align-items: center;
+    font: small normal normal 45px/84px Myanmar Text;
+    letter-spacing: 0px;
+    color: #5C5C5C;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.software{
+    height: 80px;
+    margin: 0px 0px 20px auto;
+    padding-left: 15px;
+    display: flex;
+    align-items: center;
+    font: small normal normal 45px/84px Myanmar Text;
+    letter-spacing: 0px;
+    color: #5C5C5C;
+    opacity: 1;
+}
+
+
+.python{
+    height: 80px;
+    margin: 0px 0px 20px auto;
+    padding-left: 15px;
+    display: flex;
+    align-items: center;
+    font: small normal normal 45px/84px Myanmar Text;
+    letter-spacing: 0px;
+    color: #5C5C5C;
+    
+    opacity: 1;
+}
+
+.miscellaneous{
+    height: 80px;
+    margin: 0px 0px 20px auto;
+    padding-left: 15px;
+    display: flex;
+    align-items: center;
+    font: small normal normal 45px/84px Myanmar Text;
+    letter-spacing: 0px;
+    color: #5C5C5C;
+   
+    opacity: 1;
+}
+
+.bottom-right{
+    margin-left: 20px;
+}
+.cards{
+    height: 110px;
+    margin-bottom: 15px;
+    padding: 10px 0px 10px 10px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    opacity: 1;
+}
+
+.h4-text{
+    text-align: left;
+    font: small normal bold 25px/33px Segoe UI;
+    letter-spacing: 0px;
+    color: #8B8B8B;
+}
+
+.span-text{
+    text-align: left;
+    font: small normal normal 25px/33px Segoe UI;
+    letter-spacing: 0px;
+    color: #8B8B8B;
+}
+.same-line{
+    display: flex;
+}
+
+.bottom-middle{
+    margin: 0px 30px 0px 30px;
+}
+
+.feed-cards{
+    height: 385px;
+    margin-bottom: 20px;
+    text-align: left;
+    background: #F3F3F3 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    opacity: 1;
+}
+
+.title{
+    padding: 20px 0px 0px 20px;
+    text-align: left;
+    font: small small small-caption 30px/40px Segoe UI;
+    letter-spacing: 0px;
+    color: #8B8B8B;
+    opacity: 1;
+}
+
+.time{
+    padding: 0px 0px 0px 20px;
+    text-align: left;
+    font: normal normal normal 17px/22px Segoe UI;
+    letter-spacing: 0px;
+    color: #8B8B8B;
+    opacity: 1;
+}
+
+.para{
+    padding: 0px 20px 0px 20px;
+    text-align: left;
+    font: small normal normal 18px/24px Segoe UI;
+    letter-spacing: 0px;
+    color: #707070;
+}
+
+.cards-icons{
+    height: 40px;
+    padding: 20px 17px 20px 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+}
+
+.left-icons{
+   display: flex;
+}
+
+.iconss{
+    padding-right: 25px;
+    cursor: pointer;
+}
+
+.flag{
+    color: red;
+    cursor: pointer;
+}
